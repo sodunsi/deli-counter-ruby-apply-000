@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     info = "The line is currently:"
          katz_deli.each_with_index do |person, index|
-     info += " #{index+1}. #{person.join(" ")}"
+     info += " #{index+1}. #{katz_deli.join(" ")}"
 #{person.join(" ")
 end
 puts info
